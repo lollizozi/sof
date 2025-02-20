@@ -1,0 +1,21 @@
+// program to display numbers from 1 to 5
+// initialize the variable
+let i = 1, n = 97.8 + 2.2;
+
+// while loop from i = 1 to 5
+//while (i <= n) {
+//(i = 1 , n = );{  
+    if(i == 100 || n == 100  || i+n == 100) {
+        
+    
+      //  console.log(i != 100);
+        //console.log(n != 100);
+    console.log('true')
+    }
+    else
+        console.log('false')
+    
+  //  i += 1;//{
+        //if(i=100)
+       // console.log('true');
+    //}
