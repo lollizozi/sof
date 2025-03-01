@@ -1,0 +1,74 @@
+// program to display numbers from 1 to 5
+// initialize the variable
+let i = 1, n = 97.8 + 2.2;
+
+// while loop from i = 1 to 5
+//while (i <= n) {
+//(i = 1 , n = );{  
+    if(i == 100 || n == 100  || i+n == 100) {
+        
+    
+      //  console.log(i != 100);
+        //console.log(n != 100);
+    console.log('true')
+    }
+    else
+        console.log('false')
+    
+  //  i += 1;//{
+        //if(i=100)
+       // console.log('true');
+    //}
+
+// program to get the file extension
+
+function getFileExtension(filename){
+
+    // get file extension
+    const extension = filename.split('.').pop();
+    return extension;
+}
+
+// passing the filename
+const result1 = getFileExtension('module.js');
+console.log(result1);
+
+const result2 = getFileExtension('module.txt');
+console.log(result2);
+
+
+//function getfileextension(filename){
+    
+  //  const extension = filename.split('.').pop();
+    //return extension;
+//}
+
+//const b = getfileextension('lolli.joji');
+//console.log(b);
+
+
+//import path from 'path ';
+
+//console.log(path.extname('abc.txt'));
+
+
+var item = "one.js";
+var lastItem = item.split(",").pop();
+console.log(lastItem);
+
+
+const message = "Java.js";
+
+// slice the substring from index 0 to 10
+let result = message.slice(4, 7);
+console.log(result);
+
+// Output: JavaScript
+
+//var string.split(separator, limit);{
+   // const b = string.split(. , -1);
+//}
+let text = ('java.js');{
+   const test = text.split("j,6")
+   console.log(test);
+}
